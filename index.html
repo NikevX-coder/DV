@@ -10,27 +10,29 @@
     <title>Soliciones informaticas DyV</title>
 </head>
 <body>
-    
-    <nav class="navbar">
-        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+    <div class="particles-js">
+        <nav class="navbar">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
 
-        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
-            <span class="material-icons">power_settings_new</span>
-        </button>
+            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                <span class="material-icons">power_settings_new</span>
+            </button>
 
-        <h1 class="navbar-title">DV</h1>
-        <nav class="navbar-menu">
-            <button type="button" class="active">Servicios</button>
-            <button type="button" class="active">Operaciones</button>
-            <button type="button">Contacto</button>
+            <h1 class="navbar-title">DV</h1>
+            <nav class="navbar-menu">
+                <button type="button" class="active">Servicios</button>
+                <button type="button" class="active">Operaciones</button>
+                <button type="button">Contacto</button>
+            </nav>
+
         </nav>
 
-    </nav>
+        <script type="text/javascript">
+            const toggleMenuOpen = () => document.body.classList.toggle("open");
+        </script>
 
-    <script type="text/javascript">
-        const toggleMenuOpen = () => document.body.classList.toggle("open");
-    </script>
-
-    <script src="js/particles.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/particles.js"></script>
+    </div>
 </body>
 </html>
