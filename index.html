@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+    <title>Soliciones informaticas DyV</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">power_settings_new</span>
+        </button>
+
+        <h1 class="navbar-title">DV</h1>
+        <nav class="navbar-menu">
+            <button type="button" class="active">Servicios</button>
+            <button type="button" class="active">Operaciones</button>
+            <button type="button">Contacto</button>
+        </nav>
+
+    </nav>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
+
+</body>
+</html>
