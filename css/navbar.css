@@ -45,13 +45,36 @@ body.open .navbar-overlay{
 
 .navbar-title{
     margin: 0 0 0 10px;
-    font-size: 16px;
-    transition: all 2s ease 0.2s;
 }
 
 .navbar-title:hover{
-    font-size: 32px;
-    transition: all 1s ease 0.2s;
+    animation-name: titulo;
+    animation-duration: 3s;
+}
+
+@keyframes titulo {
+    from {
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    30% {
+        color: goldenrod;
+        opacity: 0.9;
+    }
+    
+    60% {
+        font-size: 24px;
+    }
+
+    70% {
+        color: burlywood;
+    }
+
+    to {
+        color: #fff;
+        font-size: 16px;
+    }
 }
 
 .navbar-menu{
