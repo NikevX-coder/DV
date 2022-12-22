@@ -17,3 +17,17 @@ button{
     color: inherit;
     cursor: pointer;
 }
+
+
+
+.cd{
+    margin-top: 50%;
+    text-align: center;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.cv{
+    text-align: center;
+    font-family: poppins;
+}
